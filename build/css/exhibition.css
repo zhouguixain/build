@@ -1,0 +1,68 @@
+html{
+	background-color:RGBA(116, 175, 209, 1.00);
+}
+
+.header{
+	width:100%;
+	height:15%;
+	background-color:RGBA(116, 175, 209, 1.00);
+	position:fixed;
+	z-index:100;
+	top:0;
+	left:0;
+}
+
+.topBlock{
+	height:15%;
+}
+
+.content{
+	background-color:RGBA(116, 175, 209, 1.00);
+}
+
+.bottomBlock{
+	height:24%;
+}
+
+.item{
+	height:8.0rem;
+}
+
+.text{
+	padding-right:0px;
+	height:90%;
+}
+
+.time{
+	font-size:1.2rem;
+	height:20%;
+}
+
+.location{
+	font-size:1.2rem;
+	height:20%;
+}
+
+.detail{
+	height:60%;
+}
+
+.info{
+	color:white;
+	width:100%;
+	display:inline-block;
+	text-align:right;
+}
+
+.footer{
+	width:100%;
+	height:24%;
+	background-image:url('../images/exhibition-bottom.png');
+	background-size:cover;
+	background-position:center center;
+	background-repeat:no-repeat;
+	position:fixed;
+	bottom:0;
+	left:0;
+}
+

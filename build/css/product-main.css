@@ -1,0 +1,44 @@
+html{
+	background-image:url("../images/product-main-bg.png");
+}
+
+
+
+.title{
+	font-size:2.4rem;
+	text-shadow:0 0.2rem 0.4rem #4a90e2;
+	color:#000;
+	text-align:center;
+	word-wrap:break-word;
+}
+
+header{
+	height:21.8rem;
+}
+
+header img{
+	width:80%;
+}
+
+.banner{
+	background-image:url("../images/quality-banner.png");
+	background-position:right center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	height:4rem;
+}
+
+.banner span{
+	line-height:4rem;
+	padding-left:1rem;
+	font-size:1.8rem;
+	font-weight:bold;
+	color:RGBA(27, 57, 91, 1);
+}
+
+.detail{
+	font-size:1.6rem;
+	margin-top:2rem;
+	margin-bottom:4rem;
+}
+

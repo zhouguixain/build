@@ -1,0 +1,77 @@
+html{
+	background-image:url('../images/project-bg.png');
+}
+
+.title-box{
+	height:70%;
+	background-color:rgba(0,0,0,0.6);
+	border-radius:0.8rem;
+}
+
+#title{
+	color:white;
+	width:100%;
+	text-align:center;
+	font-size:1.6rem;
+}
+
+.description-box{
+	height:70%;
+	background-color:rgba(0,0,0,0.6);
+	border-radius:0.8rem;
+}
+
+#description{
+	color:white;
+	height:80%;
+	font-size:1.6rem;
+}
+
+#container{
+	height:95%;
+}
+
+.slide{
+	border:1px solid white;
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform:translate(-50%,-50%);
+	-webkit-transform:translate(-50%,-50%);
+	-moz-transform:translate(-50%,-50%);
+	border-radius:0.8rem;
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.leftBtn,.rightBtn{
+	width:44px;
+	height:100%;
+	background-color:transparent;
+	border:none;
+	color:RGBA(26, 94, 127, 1.00);
+}
+
+button:active{
+	border:none;
+	outline:none;
+}
+
+button:focus{
+	border:none;
+	outline:none;
+}
+
+button:hover{
+	border:none;
+	outline:none;
+}
+
+.leftBtn{
+	left:0;
+}
+
+.rightBtn{
+	left:100%;
+}

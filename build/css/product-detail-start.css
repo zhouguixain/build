@@ -1,0 +1,47 @@
+html{
+	background-image:url("../images/common-product-bg.png");
+}
+
+.title-main{
+	font-size:2.4rem;
+	text-shadow:0 0.2rem 0.4rem #4a90e2;
+	color:#000;
+	text-align:center;
+	word-wrap:break-word;
+}
+
+header{
+	height:12.6rem;
+	overflow:hidden;
+}
+
+header img{
+	height:50%;
+}
+
+.pic{
+	border-radius:0.8rem;
+}
+
+.description-bg{
+	padding-top:1rem;
+	background-color:RGBA(0,0,0,0.35);
+	height:60%;
+	border-radius:0.8rem;
+}
+
+.description-line{
+	height:30%;
+}
+
+.text{
+	color:white;
+	font-size:1.2rem;
+}
+
+.title{
+	color:white;
+	font-size:1.4rem;
+	text-align:center;
+	width:100%;
+}
