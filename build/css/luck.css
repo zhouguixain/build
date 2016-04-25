@@ -97,3 +97,18 @@ body {
 	background-position:center top;
 	background-repeat:no-repeat;
 }
+.coverBox{
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: rgba(0,0,0,0.5);
+}
+.coverBox img{
+	 position: absolute;
+	 left: 50%;
+	 top: 50%;
+	 margin-top: -50px;
+	 margin-left: -50px;
+}
