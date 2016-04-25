@@ -106,10 +106,17 @@ body {
 	width: 100%;
 	background: rgba(0,0,0,0.5);
 }
-.coverBox img{
+.coverBox .load{
 	 position: absolute;
 	 left: 50%;
 	 top: 50%;
 	 margin-top: -50px;
 	 margin-left: -50px;
+}
+.coverBox .fail{
+	 position: absolute;
+	 left: 50%;
+	 top: 50%;
+	 margin-top: -158px;
+	 margin-left: -156px;
 }
