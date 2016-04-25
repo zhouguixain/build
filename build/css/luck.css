@@ -69,17 +69,18 @@
 	display:inline-block;
 	font-family:PingFangSC-Semibold;
 }
-
 .noties{
 	width:80%;
+	margin: 0 auto;
 	color:white;
-	padding-top:1.6rem;
+	/*padding-top:1.6rem;*/
+	padding: 0.8rem 0;
 	font-size:1.2rem;
 }
 
-p.noties:last-child{
+/*p.noties:last-child{
 	padding-bottom:4rem;
-}
+}*/
 
 header{
 	height:11.2rem;
