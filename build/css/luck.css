@@ -113,7 +113,18 @@ body {
 	 margin-top: -50px;
 	 margin-left: -50px;
 }
-.coverBox .fail{
+.failBox span{
+	width: 122px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -90px;
+	margin-left: -61px;
+	color: white;
+	font-size:16px;
+	letter-spacing:2.03px;
+}
+.failBox .fail{
 	 position: absolute;
 	 left: 50%;
 	 top: 50%;
