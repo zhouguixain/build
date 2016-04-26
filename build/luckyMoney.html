@@ -25,19 +25,13 @@
 	<p class="noties">4.阁美仕保留法律范围内允许的对活动的解释权</p>
 	<div class="coverBox">
 		<img src="images/load.gif" class="load">
-		<div class="failBox"><img src="images/fail.png" class="fail"><span>没猜错的话，红包已经被你领走了</span></div>
+		<div class="failBox failBoxHide"><img src="images/fail.png" class="fail"><span>没猜错的话，红包已经被你领走了</span></div>
 	</div>
 	<script>
 		$(document).ready(function(){
 			$(".coverBox").hide();
 			$(".button").on("click",function(){
 				$(".coverBox").show();
-
-				// document.onmousewheel = function(e) {
-				// 	var e = e || window.event;
-				// 	e.preventDefault();
-				// }
-
 
 				//出现朦层，阻止鼠标滚轮事件
 				var scrollPosition = [
@@ -49,14 +43,20 @@
 				html.data('previous-overflow', html.css('overflow'));
 				html.css('overflow', 'hidden');
 				window.scrollTo(scrollPosition[0], scrollPosition[1]);
-
 			})
-			
-			//点击朦层隐藏
-			// $(".coverBox").on("click",function(){
-			// 	$(".coverBox").hide();
-			// })
+
+			setTimeout(failed,3000);
 		})
+
+		// 失败调取
+		function failed(){
+			//点击朦层隐藏
+			$(".coverBox").on("click",function(){
+				$(".coverBox").hide();
+			})
+
+			$(".failBox").removeClass("failBoxHide");
+		}
 		
 		
 	</script>
